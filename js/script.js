@@ -9,8 +9,11 @@ createApp({
         }
     },
     methods: {
-        changeColor(){
-            this.color = 'green fonts-6'
+        changeColor(value){
+            this.color = value;
+            console.log(value);
         }
+        
     }
 }).mount('#app');
+
